@@ -1,17 +1,19 @@
 # Tclaw - Mbazor Jeremiah Chinonso
 # T-Claw Prototype – OpenClaw Setup & Agent Demo
 
-This repository demonstrates a working setup of OpenClaw in a secure, isolated githubspace environment, connected to a live Discord bot. This serves as the foundation for implementing the Trust over IP TSP-Enabled AI Agent (TEA) model as part of the LFX Mentorship application.
+This repository demonstrates a working setup of OpenClaw in a secure, isolated environment, connected to a live Discord bot. This serves as the foundation for implementing the Trust over IP TSP-Enabled AI Agent (TEA) model as part of the LFX Mentorship application.
 
 ---
 
 ## Environment Setup
 
-- Platform: GitHub Codespaces (isolated development environment)
-- OS: Linux (Codespaces container+ vscode)
+- OS: Linux ( container + vscode)
 - Runtime: Node.js + pnpm
 - AI Model: API-based LLM (configured via environment variables)
-- Agent Framework: OpenClaw
+- Agent Framework: OpenClaw + openai , copilot
+- Concurrent Platform: GitHub Codespaces (isolated development environment)
+- Hardware: PC: 32G, 1T, i7
+- 
 
 ---
 
@@ -22,12 +24,20 @@ This repository demonstrates a working setup of OpenClaw in a secure, isolated g
 - Connected OpenClaw agent to Discord bot
 - Executed live agent interactions via Discord
 - Verified agent responses through logs and terminal output
+- Assess port forwarding
 - Track the openclaw process and use pkill
 - use openclaw doctor
 - used nano to edit openclaw json files to integrate the discord channel server and app
 - Sent message from discord to openclaw and vice-versa
 
 ---
+##  The Logs 
+1. [tclawbuild.log](https://github.com/user-attachments/files/27107795/tclawbuild.log)
+
+2. [tclaw.log](https://github.com/user-attachments/files/27107792/tclaw.log)
+
+3. [openclaw.log](https://github.com/user-attachments/files/27107821/openclaw.log)
+
 
 ## Outcomes of Running OpenClaw and DIscord Bot Interactions
 <img width="702" height="844" alt="discord-tclaw-asset2" src="https://github.com/user-attachments/assets/16fc4202-3e95-4bab-bd63-1d1aee4b5d0a" />
