@@ -38,6 +38,9 @@ This repository demonstrates a working setup of OpenClaw in a secure, isolated e
 
 3. [openclaw.log](https://github.com/user-attachments/files/27107821/openclaw.log)
 
+##  To Do Next:
+
+Add a minimal TEA-style trust layer wrapper
 
 ## Outcomes of Running OpenClaw and DIscord Bot Interactions
 <img width="702" height="844" alt="discord-tclaw-asset2" src="https://github.com/user-attachments/assets/16fc4202-3e95-4bab-bd63-1d1aee4b5d0a" />
